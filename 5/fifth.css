@@ -1,0 +1,35 @@
+.radarChart .axis line {
+    stroke: #ddd;
+}
+
+.radarChart .axis text {
+    font-size: 12px;
+}
+
+.radarChart .line {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.radarChart .area {
+    fill-opacity: 0.6;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.main {
+    margin: 100px auto;
+    width: 1000px;
+}

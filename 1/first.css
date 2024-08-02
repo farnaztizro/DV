@@ -1,0 +1,19 @@
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    font-size: 12px;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main {
+    margin: 100px auto;
+    width: 1000px;
+}
